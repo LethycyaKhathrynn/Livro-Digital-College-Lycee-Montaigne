@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: "Roboto Flex", sans-serif;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+header a:hover, footer a:hover { 
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment:fixed; 
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg)
+  
+
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpeg)
+    
+}
+
+section#img03 {
+    background-image: url(../imagens/background003.jpg)
+    
+}
+
+section#img04 {
+    background-image: url(../imagens/background004.jpg)
+    
+}
+
+section#img05 {
+    background-image: url(../imagens/background005.png)
+    
+}
+
+section#img06 {
+    background-image: url(../imagens/background006.png)
+    
+}
+
+section#img07 {
+    background-image: url(../imagens/background007.jpg)
+    
+}
+
+section#img08 {
+    background-image: url(../imagens/background008.jpg)
+    
+}
+
+section#img09 {
+    background-image: url(../imagens/background009.jpeg)
+    
+}
+
+section#img10 {
+    background-image: url(../imagens/background010.jpg)
+    
+}
+
+section#img11 {
+    background-image: url(../imagens/background011.png)
+    
+}
+
+section#img12 {
+    background-image: url(../imagens/background012.jpeg)
+    
+}
+
+section#img13 {
+    background-image: url(../imagens/background013.jpg)
+    
+}
+
+section#img14 {
+    background-image: url(../imagens/background014.jpg)
+    
+}
+
+section#img15 {
+    background-image: url(../imagens/background015.jpeg)
+    
+}
+
+section#img16 {
+    background-image: url(../imagens/background016.jpeg)
+    
+}
+
+section#img17 {
+    background-image: url(../imagens/background017.jpeg)
+    
+}
+
+section#img18 {
+    background-image: url(../imagens/background018.jpg)
+    
+}
+
+section#img19 {
+    background-image: url(../imagens/background019.jpg)
+    
+}
+
+section#img20 {
+    background-image: url(../imagens/background020.jpg)
+    
+}
+
+section#img21 {
+    background-image: url(../imagens/background021.jpg)
+    
+}
+
+section#img22 {
+    background-image: url(../imagens/background022.jpg)
+    
+}
+
+section#img23 {
+    background-image: url(../imagens/background023.jpg)
+    
+}
+
+section#img24 {
+    background-image: url(../imagens/background024.jpeg)
+    
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: var(--fonte2);
+}
