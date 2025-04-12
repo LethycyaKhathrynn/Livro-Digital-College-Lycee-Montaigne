@@ -30,14 +30,14 @@ header {
 }
 
 header > h1 {
-    padding-top: 50px;
+    padding-top: 40px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 10vw;
+    font-size: 5vw;
 }
 
 header > p {
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 header a, footer a {
@@ -57,7 +57,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 2vw;
 }
 
 section > p {
@@ -121,6 +121,11 @@ section#img07 {
     
 }
 
+section#img0071 {
+    background-image: url(../imagens/background0071.jpg)
+    
+}
+
 section#img08 {
     background-image: url(../imagens/background008.jpg)
     
@@ -142,7 +147,12 @@ section#img11 {
 }
 
 section#img12 {
-    background-image: url(../imagens/background012.jpeg)
+    background-image: url(../imagens/background012.jpg)
+    
+}
+
+section#img121 {
+    background-image: url(../imagens/background0121.jpg)
     
 }
 
@@ -153,6 +163,11 @@ section#img13 {
 
 section#img14 {
     background-image: url(../imagens/background014.jpg)
+    
+}
+
+section#img141 {
+    background-image: url(../imagens/background0141.jpg)
     
 }
 
@@ -167,7 +182,12 @@ section#img16 {
 }
 
 section#img17 {
-    background-image: url(../imagens/background017.jpeg)
+    background-image: url(../imagens/background017.png)
+    
+}
+
+section#img171 {
+    background-image: url(../imagens/background0171.png)
     
 }
 
